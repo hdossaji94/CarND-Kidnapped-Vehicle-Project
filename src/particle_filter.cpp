@@ -253,7 +253,7 @@ void ParticleFilter::resample() {
     resampledParticles.push_back(particles[index]);
   }
 
-  particles = resampledParticles
+  particles = resampledParticles;
 
 }
 
